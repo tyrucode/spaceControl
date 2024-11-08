@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Mission Filter Section */
+.mission-filter {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.mission-filter button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.mission-filter button:hover {
+    background-color: #0056b3;
+}
+
+.mission-filter button:active {
+    background-color: #003f7f;
+}
+
+/* Mission Card Section */
+.mission-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.mission-card h3 {
+    margin-top: 0;
+}
+
+.mission-card p {
+    margin: 5px 0;
+}
+
+/* Mission Action Section */
+.mission-action {
+    margin-top: 10px;
+}
+
+.mission-action button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.mission-action button:hover {
+    background-color: #218838;
+}
+
+.mission-action button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
